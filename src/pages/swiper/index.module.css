@@ -1,0 +1,19 @@
+.box {
+  border: 1px solid black;
+  display: flex;
+  /* justify-content: center; */
+  width: 100px;
+  overflow: hidden;
+  margin: 100px auto;
+}
+.item {
+  color: wheat;
+  text-align: center;
+  line-height: 100px;
+  margin: 0px;
+  height: 100px;
+  flex-shrink: 0;
+  width: 100px;
+
+  /* border: 1px solid black; */
+}
