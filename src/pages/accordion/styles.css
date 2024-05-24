@@ -1,0 +1,42 @@
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(230, 237, 254, 1) 100%
+  );
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.accordion-item {
+  width: 500px;
+}
+
+.accordion-title {
+  cursor: pointer;
+  padding: 8px;
+  background: #00409c;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.accordion-content {
+  display: flex;
+  background: #d1e4ff;
+  padding: 8px;
+}
